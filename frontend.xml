@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 119.0.6045.159 (Mac OS 10.15.7)" package="unit" timestamp="2023-11-22T10:49:33" id="0" hostname="Varad-Rajesh-Patil" tests="1" errors="0" failures="1" time="0.13">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/119.0.6045.159 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.13" classname=".AppComponent">
+    <failure type="">Expected AppComponent({ title: 'django-angular base', __ngContext__: 0 }) to be falsy.
+    at &lt;Jasmine&gt;
+    at UserContext.apply (src/app/app.component.spec.ts:20:17)
+    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:375:26)
+    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:39)
+    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:374:52)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

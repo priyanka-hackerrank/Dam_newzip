@@ -1,0 +1,20 @@
+version: 1.0
+configuration:
+  has_webserver: true
+  scoring:
+    command: cd frontend && npm run test
+    files:
+      - backend.xml
+      - frontend.xml
+  readonly_paths:
+    - frontend/src/app/app.component.spec.ts
+    - backend/backend/tests.py
+  ide_config:
+    default_open_files:
+      - backend/backend/settings.py
+      - frontend/src/app/app.component.html
+      - frontend/src/app/app.component.scss
+    project_menu:
+      run: cd frontend && npm start
+      install: cd frontend && npm install
+      test: cd frontend && npm run test
